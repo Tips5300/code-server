@@ -1,0 +1,20 @@
+Index: code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent.ts
+===================================================================
+--- code-server.orig/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent.ts
++++ code-server/lib/vscode/src/vs/workbench/contrib/welcomeGettingStarted/common/gettingStartedContent.ts
+@@ -352,13 +352,13 @@ export const walkthroughs: GettingStarte
+ 
+ 	{
+ 		id: 'SetupWeb',
+-		title: localize('gettingStarted.setupWeb.title', "Get Started with VS Code for the Web"),
++		title: localize('gettingStarted.setupWeb.title', "Get Started with VS Code for the Android"),
+ 		description: localize('gettingStarted.setupWeb.description', "Customize your editor, learn the basics, and start coding"),
+ 		isFeatured: true,
+ 		icon: setupIcon,
+ 		when: 'isWeb',
+ 		next: 'Beginner',
+-		walkthroughPageTitle: localize('gettingStarted.setupWeb.walkthroughPageTitle', 'Setup VS Code Web'),
++		walkthroughPageTitle: localize('gettingStarted.setupWeb.walkthroughPageTitle', 'Setup VS Code Android'),
+ 		content: {
+ 			type: 'steps',
+ 			steps: [
